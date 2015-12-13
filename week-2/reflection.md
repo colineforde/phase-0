@@ -18,4 +18,4 @@ What are the main things someone should know about design and user experience? -
 
 What is user experience design and why is it valuable? - User experience design is the process of enhancing the satisfaction of users by improving on the usability pleasure and accesibility that the user will develop by interacting with the product. 
 
-Which parts of the challenge did you find tedious? - The main part of the challenge that I found tedious was the 
+Which parts of the challenge did you find tedious? - The main part of the challenge that I found tedious were a few of the readings. They were interesting and new topics but some of them were a bit repetitive. 
