@@ -1,0 +1,1 @@
+![Alt text](imgs/wireframe-blog-index.png)
