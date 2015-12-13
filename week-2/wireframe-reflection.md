@@ -2,7 +2,7 @@
 
 What is a wireframe? - A wireframe can be either a sketch or a digital design that serves as a guide to provide the skeletal framework of the site that you wish to build.
 
-What are the benefits of wireframing? - The benefit of wireframing is that you have a image to reference for the layout of the website. It makes the designing a bit easier because you have a general idea of how you'd like for the website to look. Without a wireframe, it may be more challenging to think of a layout, and you might forget what you'd like to incorporate into the design 
+What are the benefits of wireframing? - The benefit of wireframing is that you have a image to reference for the layout of the website. It makes the designing a bit easier because you have a general idea of how you'd like for the website to look. Without a wireframe, it may be more challenging to think of a layout, and you might forget what you'd like to incorporate into the design. Since you do have the layout right in front of you, it's easier to know what code you'll need in order to make the wireframe.  
 
 Did you enjoy wireframing your site? - Wireframing my site was fun. It allowed me to put my ideas down onto a sheet and save them so that I'll have a better idea of how the website will look later. I think wireframing helps me also stick to a layout and gives me a chance to see how a design might look before implementing all of the code. 
 
