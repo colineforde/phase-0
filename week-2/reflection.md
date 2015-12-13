@@ -1,4 +1,4 @@
-![Alt text](phase-0/week-2/imgs/site-map.png)
+![Alt text](imgs/site-map.png)
 
 What are the 6 Phases of Web Design? - The six plases of Web Design are: 
 	1. Information Gathering - Decide what is the purpose of the web that you are building, and what goals you'd like to accomplish. It's also good to know your target audience, so that you can know which type of group or people you are marketing to. 
