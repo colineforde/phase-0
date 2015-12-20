@@ -1,0 +1,81 @@
+html {
+  color: #000080;
+  background: #ffffff;
+  
+}
+a {
+  position: relative;
+}
+td {
+  vertical-align: top;
+}
+  
+a:visited {
+  color: #ff0000;
+}
+
+header {
+  font-weight: bold; 
+  text-align: center;
+  line-break: normal;  
+}
+p span {
+  font-size: 35px; 
+}
+#officialhome {
+  font-size: 25px
+}
+#address {
+  font-size: 15px;
+}
+
+img{
+  text-align: center;
+  margin-top: 10px;
+}
+ 
+section p {
+  text-align: center; 
+}
+   
+article {
+  text-align: left; 
+  margin-top: 10px; 
+	margin-bottom: 10px; 
+}
+
+.hline { 
+  width:100%; height:1px; background-color: grey; 
+}
+ 
+.subtxt {
+  font-size: 10px; 
+  display: block;
+}
+
+li {
+ 	padding: 0px 0px 40px 0px;
+}
+
+header {
+	padding: 0px 0px 10px 0px;
+}
+
+table {
+	margin: auto;
+}
+
+.questions {
+	padding: 10px 0px 0px 0px;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file? - It's important to know the filepath(href), as well as including 'text/css' and 'ref'
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it? - We used child tags to format specific sections if the tag was used in another section. There were a few challenges with overlapping and some formatting overriding other changes made, but after making more classes and ids inside the tags, it made formatting a bit easier. 
+
+What CSS did you use to modify the element style (like size, color, etc.) - font-size, color, text-align, font-weight
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML? - We modified the HTML to use both classes and ids. We used classes to make the horizontal line, as well as change the size of the subtext, and used ids when needing different sizes in the heading for the address and company name. 
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why ? - I think the code in the oroginal site seemed to be a bit more readable. I think my code is pretty clear to read but I had to use a lot of different classes and ids to separate out the types of formatting which got a bit confusing at one point as I needed to be careful not to overlap bits. 
+*/
