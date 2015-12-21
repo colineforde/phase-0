@@ -10,18 +10,8 @@ Hours in a year
 Minutes in a decade
 
 ```ruby
-def hours_in_year
-	num_of_days = 365
-	hours_per_day = 24
-	return num_of_days * hours_per_day
-end 
-
-def minutes_in_decade
-	yrs_in_decade = 10
-	return hours_in_year * 60 * yrs_in_decade
-end 
-
-puts hours_in_year
-puts minutes_in_decade
-
+hours_in_year = 365 * 24
+	
+minutes_in_decade = 10 * 60 * hours_in_year
+ 
 ```
