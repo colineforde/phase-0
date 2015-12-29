@@ -69,18 +69,9 @@ end
 
 # 6. sentence_maker refactored solution
 def sentence_maker(strings)
-	output = strings[0].capitalize + ' '
-	index = 1
-	while index < strings.length
-		if index == strings.length - 1
-			output << strings[index].to_s + '.'
-		else
-			output << strings[index].to_s + ' '
-		end
-		index += 1
-	end 
-	return output
-end
+	sentence= strings.join(' ')
+	return sentence[0].capitalize + sentence[1..-1] + "."
+end 
 
 
 
