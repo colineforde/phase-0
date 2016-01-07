@@ -43,3 +43,11 @@ def mode(arr)
 end
 
 # 4. Reflection
+
+# Which data structure did you and your pair decide to implement and why? - We decided to use a Hash. That way you can keep track of the number and the count for how many times it appears in the array that is inputed. 
+
+# Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?  - Yes. Pseudocode was the easier part. It was clear what we wanted to do and how to go about it.The challenge came in when trying to figure out how to return the correct output if there is more than one mode, or if the mode wasn't a number.
+
+# What issues/successes did you run into when translating your pseudocode to code? - One issue was making this work for both integers and strings. Initially, I thought we could just set the mode equal to zero, and by counting the number of times each number appears in the hash, and iterating over each key/value, update the mode if the value was greater than the previous value. Then I ran into a problem if 0 appeared the most, and if there was more than one mode. It took a bit of thinking and some review of the different methods for .max, but was able to come to a solution that worked for all cases, not just numbers or one mode in the array. 
+
+# What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement? - We used .each, .max_by, and .select. For me, max_by took a bit more thinking as it returns both the key and value in the array, and we only want the number with the max value to be returned. I also didn't know we could call the index after a curly bracket, so it was an interesting discovery!
