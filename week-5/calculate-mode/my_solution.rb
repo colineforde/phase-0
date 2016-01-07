@@ -9,7 +9,6 @@
 # is commented.
 
 
-
 # 0. Pseudocode
 
 # What is the input? - An array of strings or integers with different quanitties
