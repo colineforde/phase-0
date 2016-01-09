@@ -15,9 +15,7 @@ def my_hash_finding_method(source, thing_to_find)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# For the first method I used only .select and include?. This allowed me to select each item in the array that met the parameters I included in the block, which was whether the element included the thing that we're looking to find. I pretty much used the same for the Hash method, though I needed to add .keys to the end, which returned only the keys, as without calling.keys, the entire hash would have been returned. 
 
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
