@@ -24,25 +24,25 @@ class Die
   end
 
   def roll
-    rand(1..sides)
+    rand(1..@sides)
   end
 end
 
 
-# 3. Refactored Solution
+# # 3. Refactored Solution
 
-class Die
-  def initialize(sides)
-    @sides = sides
-    raise ArgumentError.new("Please select select a number from 1 to 6") if sides <= 0 
-  end
+# class Die
+#   def initialize(sides)
+#     @sides = sides
+#     raise ArgumentError.new("Please select select a number from 1 to 6") if sides <= 0 
+#   end
 
-  attr_reader :sides
+#   attr_reader :sides
 
-  def roll
-    rand(1..sides)
-  end
-end
+#   def roll
+#     rand(1..sides)
+#   end
+# end
 
 
 # 4. Reflection
