@@ -7,9 +7,6 @@ def my_array_finding_method(source, thing_to_find)
   source.select { |el| el.to_s.include?(thing_to_find.to_s) } 
 end
 
-i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2 ]
-puts my_array_finding_method(i_want_pets, 3)
-
 def my_hash_finding_method(source, thing_to_find)
   source.select { |k, v| v == thing_to_find }.keys 
 end
