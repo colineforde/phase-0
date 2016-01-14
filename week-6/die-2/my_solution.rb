@@ -6,9 +6,9 @@
 
 # Pseudocode
 
-# Input: an array with the 
-# Output:
-# Steps:
+# Input: An array with as many items as the number of sides of the die. 
+# Output: The random number that was returned after running the method and creating a new die.  
+# Steps: Initialize the labels variable and make it an instance variable. Check to see if the labels, which is an array, is empty, and IF it is empty, raise an ArgumentError. Next, define the sides method, which would be equivalent to the length of the array. Lastly, you want to define the roll method. We want to pick a random number, so pick a random index of the array. Since there is zero indexing, it should start at zero and end one less than the length of the array. 
 
 
 # Initial Solution
