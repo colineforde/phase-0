@@ -53,8 +53,8 @@ end
 
 
 # Bonus:
-
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
+
 
 # startup_names.each do |array|
 # 	if array.is_a?(Array)
@@ -72,13 +72,13 @@ startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 # 	end
 # end
 
-def startup_name_generator(array)
-	if array.is_a?(Array)
-		array.each do |names|
-			startup_name_generator(array)
+def startup_name_generator(item)
+	if item.is_a?(Array)
+		item.each do |nested_item|
+			startup_name_generator(nested_item)
 		end
 	else
-		p names + "ly"
+		p item + "ly"
 	end
 end
 
