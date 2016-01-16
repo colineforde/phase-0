@@ -36,18 +36,19 @@
 
 # Refactored Solution
 class GuessingGame
+  attr_accessor :solved
+  alias_method :solved?, :solved
+
   def initialize(answer)
   	@answer = answer
+    @solved = false
   end
 
   def guess(num)
-  	@num = num
-  	@num > @answer ? :high : (@num < @answer ? :low : :correct)
+  	@solved = (num == @answer)
+  	num > @answer ? :high : (num < @answer ? :low : :correct)
   end
 
-  def solved? 
-  	@num == @answer
-  end
 end
 
 
