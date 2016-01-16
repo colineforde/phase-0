@@ -1,14 +1,14 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge by myself.
 
-# I spent [#] hours on this challenge.
+# I spent 45 minutes on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: The input for the class is a name when creating a new object. 
+# Output: The output will be a greeting by calling the hello method under Greetings Class and including the namedata object. 
+# Steps: Initialize the name data class for a name value. Also add the name as an attr_reader so that it may later be read in the greetings class. For the greetings class, initialize the class by creating an instance of the name data, with your name as the name. Then for the hello method inside the greetings class, call @namedata.name so that the method will retrieve the information from the NameData class, as it was initialized in Greetings. A sentence should appear, greeting the individual who's name is in the namedata object. 
 
 class NameData
 	attr_reader :name
