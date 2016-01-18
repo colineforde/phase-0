@@ -1,6 +1,6 @@
 # A Nested Array to Model a Bingo Board SOLO CHALLENGE
 
-# I spent [#] hours on this challenge.
+# I spent 2.5 hours on this challenge.
 
 
 # Release 0: Pseudocode
@@ -13,13 +13,10 @@
   #Go through each column and see if the column has the number. You'll have to check the index according to the letter. The first letter can have the 0th index for each array, the second will have the first, and so on. 
 
 # If the number is in the column, replace with an 'x'
-  #Check to see if the number that was drawn at random is in the board in the right column. If the number is in the column, you want to change the item in teh array so that it is now equal to an x. If not, put a sentence saying it does not exist. 
-
-# Display a column to the console
-  #Show just the column for the letter to the console. 
+  #Check to see if the number that was drawn at random is in the board in the right column. If the number is in the column, you want to change the item in teh array so that it is now equal to an x. If not, put a sentence saying it does not exist.  
 
 # Display the board to the console (prettily)
-  #Print the board to the console. 
+  #Print the board to the console with each column on new lines.
 
 # Initial Solution
 
@@ -63,7 +60,6 @@
 # Refactored Solution
 
 class BingoBoard
-  attr_reader :bingo
   COLUMN_MAPS = {
     "b" => 0,
     "i" => 1,
@@ -74,11 +70,10 @@ class BingoBoard
 
   def initialize(board)
     @bingo_board = board
-    @columns = ["b","i","n","g","o"]
   end
 
   def generate
-    rand_letter = @columns.sample
+    rand_letter = COLUMN_MAPS.keys.sample
     rand_num = rand(1..100)
     [rand_letter, rand_num]
   end
@@ -120,4 +115,12 @@ new_game = BingoBoard.new(board)
 new_game.play_round
 new_game.display_board
 
-#Reflection
+# #Reflection
+# How difficult was pseudocoding this challenge? What do you think of your pseudocoding style? - Writing the pseudocode wasn't too difficult. I wrote every step which really helped in solving the problem and going through step-by-step what was needed. 
+# What are the benefits of using a class for this challenge? - Using a class helped use different methods inside other methods, as well as use instance variables in different methods inside the class. 
+# How can you access coordinates in a nested array? - You can access coordinates in a nested arrray by having the first coordinate the first array within the array, and the second coordinate the element in that array. You can use this by using .each method to first iterate over the array, and then another each method to iterate over the items in the nested array. 
+# What methods did you use to access and modify the array? - In the first method I used transpose, which put similar letters in the same row by rotating the array clockwise. On the second one, I used a hash to access items of similar coordinates in each column. 
+# Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called? - All the methods I learned were ones I've previously used, however I learned that by adding .transpose on an already transposed matrix, you will un-transpose the matrix. 
+# How did you determine what should be an instance variable versus a local variable? - I determined what should be an instance variable as whether I'll need to use it in other methods. For example, the bing_board needed to be used throughout, so I chose that to be an instance variable. 
+# What do you feel is most improved in your refactored solution? - I think the sloppiness that came with transposing the board has been greatly improved with my refactored version. I'm sure there are ways to better display the board, but the refactored version seems cleaner than my first solution. 
+
