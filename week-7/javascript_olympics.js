@@ -63,3 +63,6 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+// What JavaScript knowledge did you solidify in this challenge? - I solidified creating objects and how to iterate over an array of multiple properties in an object. It was a bit tricky to figure out the right syntax when iterating through each hash of properties in the array, but once we solved it, it became pretty clear. 
+// What are constructor functions? - Constructor functions are used to create objects. You can give them different properties by calling this. before the property. If you then create an object, and try calling any of the properties on the object, the console will return the appropriate value given how it was defined. You can also use the literal version, which is creating the object and filling in the properties inside a hash. 
+// How are constructors different from Ruby classes (in your research)? - Constructors are different from classes in the syntax. The object that you create can be similar to a class in ruby, in the fact that you can set values to different variables, which would be the properties in javascipt. In addition, calling this. on the properties is kind of similar to using an attr_reader in the sense that you can call object.property and read the property on the console. 
