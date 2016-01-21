@@ -45,5 +45,9 @@ console.log(numCommas(10,000,000)
 console.log(numCommas(100,000,000)
 
 
-
 // Reflection
+
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently? - It required a little different thinking. I forgot how wonderful ruby is with all its built in methods, so we really had to piece apart every step to solve this with limited methods. 
+// What did you learn about iterating over arrays in JavaScript? - You iterate over the index, so if you want to element, when using a for loop, you need to reference the array. ex array[i] and not just do i to try and access the element in the array. 
+// What was different about solving this problem in JavaScript? - Using only the index instead of iterating over each item took me a while to wrap my head around the process as I was used to using .each with Ruby. In addition, the syntax is quite different so it's important to remember to add parenthesis, semicolons, and curly braces.
+// What built-in methods did you find to incorporate in your refactored solution? - We used .reverse, .split, and .join for the refactored solution.
