@@ -1,9 +1,9 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with: Peter L..
 
-// Pseudocode
+// Pseudocode - The function will take in an integer. First split the integer and convert it to a string so that we can iterate over each item. We want to put a comma after every three zeros, so working from the back if the length / 3 leaves no remainders, and the output isn't an empty string, then you want to shovel into the output a comma. Otherwise, you want to shovel into the output  the number at that index. Once you have the array, you need to reverse the array since we started from the back, in order to have the numbers in the correct order, and return that output. 
 
 var numCommas = function(number) {
  var num = String(number);
@@ -22,6 +22,7 @@ var numCommas = function(number) {
 }
 
 // Refactored Solution
+
 var numCommas = function(number) {
  var num = String(number);
  var output = ""
@@ -33,19 +34,6 @@ var numCommas = function(number) {
   }
    return output.split('').reverse().join('')
 }
-
-// // Your Own Tests (OPTIONAL)
-
-
-console.log(numCommas(1000000))
-
-// Reflection
-// Initial Solution
-
-
-
-// Refactored Solution
-
 
 
 

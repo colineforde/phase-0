@@ -1,4 +1,4 @@
-// This challenge took me [#] hours.
+// This challenge took me .5 hours.
 
 // /Create a function that takes an array of athletes that include a name and event property. (Sarah Hughes (Links to an external site.), for example, could have "Ladies' Singles" as her event). Your function should add a  win property to each athlete in the array. In the example above,  win would print "Sarah Hughes won the Ladies' Singles!"
 
