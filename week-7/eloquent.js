@@ -40,5 +40,5 @@ var me = {
 	name: "Coline",
 	age: 24,
 	favoriteFoods: ["pizza", "falafel", "salad"],
-	quirk: "I collect foreign money",
+	quirk: "I collect foreign money"
 };
