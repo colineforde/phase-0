@@ -308,6 +308,11 @@ var game = {
 		}
 	}	
 }
+// Reflection
+// What was the most difficult part of this challenge? - Making the arrays in javascript match up to the spots in Canvas/Html. It involved a bit of math to divide up the sections and have them each correspond to an array. 
+// What did you learn about creating objects and functions that interact with one another? - You are able to call functions within other functions. I already knew it, but it was interesting to see how they relate to one another. 
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work? - I learned about .every, .some, and .forEach, the equivalent of .all?, .any?, and .each in Ruby. I also learned that adding a second argument to any of them will give you the index. 
+// How can you access and manipulate properties of objects? - By calling the bracket or dot notation of the object and assigning it to a new name. 
 
 
 
