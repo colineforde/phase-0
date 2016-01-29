@@ -19,34 +19,44 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+// var gradebook = {};
+// students.forEach(function(students) {
+//                  gradebook[students] = {}
+//                 })
              
-for (var i = 0; i < students.length; i ++) {
-  scores.forEach(function(testScores, i){
-    gradebook[students[i]]['testScores'] = testScores
-  })
-}
+// for (var i = 0; i < students.length; i ++) {
+//   scores.forEach(function(testScores, i){
+//     gradebook[students[i]]['testScores'] = testScores
+//   })
+// }
 
-gradebook.addScore = function(name, scorearguments){
-  gradebook[name].testScores.push(scorearguments)
-}
+// gradebook.addScore = function(name, scorearguments){
+//   gradebook[name].testScores.push(scorearguments)
+// }
 
-gradebook.getAverage = function(name){
-  return average(gradebook[name].testScores)
-};
+// gradebook.getAverage = function(name){
+//   return average(gradebook[name].testScores)
+// };
 
-function average(array){
-  return array.reduce((a, b) => a + b)/array.length;
-}
+// function average(array){
+//   return array.reduce((a, b) => a + b)/array.length;
+// }
 
-console.log(gradebook)
+// console.log(gradebook)
 
 
 // __________________________________________
 // Refactored Solution
              
-  scores.forEach(function(testScores, i){
-    gradebook[students[i]]['testScores'] = testScores
-  })
+
+var gradebook = {};
+students.forEach(function(students) {
+               gradebook[students] = {}
+              })
+
+scores.forEach(function(testScores, i){
+  gradebook[students[i]]['testScores'] = testScores
+})
 
 
 gradebook.addScore = function(name, scorearguments){
@@ -59,21 +69,14 @@ gradebook.getAverage = function(name){
 
 function average(array){
   return array.reduce((a, b) => a + b)/array.length;
-}`
-
-
-
-
-
+}
 
 // __________________________________________
 // Reflect
 
-
-
-
-
-
+//  What did you learn about adding functions to objects? - I learned when adding functions to objects and iterating through an array, it's important to not put quotes around the variable that changes. Otherwise the variable won't change. Also when assigning variables to names, you can't use dot notation to add that variable; only bracket notation will work. 
+// How did you iterate over nested arrays in JavaScript? - I iterated over nested arrays using.forEach, using both an index and a variable. It allowed us to work how .each_with_index works in Ruby. 
+//  Were there any new methods you were able to incorporate? If so, what were they and how did they work? - No new methods in this challenge, but a good refresher on how .forEach works and how important it is in JS methods to take in arguments.
 
 
 
