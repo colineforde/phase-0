@@ -16,10 +16,13 @@ end
 
 
 puts reverse_letters("Hi I'm Coline")
-# Refactored Solution
+# Refactored Solution - no refactored solution. We're not sure if this can be refactored any 
+#further. 
 
 
 
-
-
-# Reflection
+# # Reflection
+# What concepts did you review in this challenge? - Using .map, reversing in place, and splitting arrays
+# What is still confusing to you about Ruby? - Nothing is still confusing at the moment. 
+# What are you going to study to get more prepared for Phase 1? - Review Project Euler challenges
+#to try and get used to solving mind bending problems. 

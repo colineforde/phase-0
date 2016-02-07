@@ -54,5 +54,13 @@ assert {div == 5}
 assert {div == 3}
 
 
-
 # 5. Reflection
+# What concepts did you review in this challenge? - In this challenge we learned something new
+#which was turning specs into assert statements. I think this is pretty cool, as it was something
+#I was hoping to learn how to do before beginning at DBC. 
+# What is still confusing to you about Ruby? - Nothing yet confuses me about Ruby. There
+#are times when it's  a bit more challenging to solve as I'm not sure how to break the problem
+#down, but other than that on using Ruby methods, I'm pretty comfortable with them so far. 
+# What are you going to study to get more prepared for Phase 1? - Using assert methods, 
+#Solving more complex problems, and probably do some Project Euler problems to get used to 
+# manipulating objects. 
